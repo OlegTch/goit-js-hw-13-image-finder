@@ -14,7 +14,7 @@ import '@pnotify/mobile/dist/PNotifyMobile.css';
 defaultModules.set(PNotifyMobile, {});
 
 const refs = getRefs();
-const { bodyContainer, loadButton, listContainer, formContainer } = refs;
+const { loadButton, listContainer, formContainer } = refs;
 
 const imagesApiService = new ImagesApiService();
 

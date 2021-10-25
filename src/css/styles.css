@@ -6,6 +6,11 @@
   text-align: center;
 }
 
+.stats-item {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .galleryContainer {
   margin: 20px;
 }
@@ -13,12 +18,15 @@
 .gallery {
   display: flex;
   flex-wrap: wrap;
+  margin-left: -10px;
+  margin-bottom: -10px;
 }
 
 .js-image-item {
   list-style: none;
-  margin-right: 10px;
+  margin-left: 10px;
   margin-bottom: 10px;
+  flex-basis: calc(100% / 3 - 10px);
 }
 
 .stats {
