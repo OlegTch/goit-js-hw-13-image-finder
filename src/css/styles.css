@@ -26,7 +26,7 @@
   list-style: none;
   margin-left: 10px;
   margin-bottom: 10px;
-  flex-basis: calc(100% / 3 - 10px);
+  /* flex-basis: calc(100% / 3 - 10px); */
 }
 
 .stats {
@@ -54,9 +54,5 @@
 }
 
 .button.is-hidden {
-  display: none;
-}
-
-.button > .spinner.is-hidden {
   display: none;
 }
