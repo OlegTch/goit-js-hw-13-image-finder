@@ -1,0 +1,54 @@
+.title {
+  text-align: center;
+}
+
+.text {
+  text-align: center;
+}
+
+.galleryContainer {
+  margin: 20px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.js-image-item {
+  list-style: none;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.formContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.button {
+  display: block;
+  background-color: #2196f3;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.button.is-hidden {
+  display: none;
+}
+
+.button > .spinner.is-hidden {
+  display: none;
+}
